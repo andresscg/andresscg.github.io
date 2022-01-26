@@ -32,6 +32,8 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <title>AndresCastillo's Portfolio</title>
+          <meta name="description" content="This is my personal portfolio to showcase my projects and skills." />
         </Head>
         <body>
           <Main />
