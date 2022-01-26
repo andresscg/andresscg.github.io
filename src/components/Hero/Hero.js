@@ -11,7 +11,7 @@ import {saveAs} from 'file-saver'
 
 const Hero = () => {
   const saveFile = () => {
-    saveAs('https://drive.google.com/file/d/1ECcaMzIXEvOED-4IVCooquV7Zcg78SlV/view?usp=sharing')
+    saveAs('https://drive.google.com/file/d/1JtGVsD0veexKyjhoCA9e9MRneJ49jAFi/view?usp=sharing')
   }
   return(
   <Section row nopadding>
