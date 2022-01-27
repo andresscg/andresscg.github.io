@@ -46,30 +46,16 @@ export const Box = styled.div`
     }
   }
 `;
-export const BoxCustom = styled.div`
-  background: #212d45;
-  border-radius: 12px;
+export const BoxCustom = styled(Box)`
   max-height: 350px;
-  padding: 24px;
   grid-column: 1/3;
-  display: flex;
-  flex-direction: column;
-  @media ${(props) => props.theme.breakpoints.lg} {
-    max-height: 210px;
-  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-height: 335px;
-    padding: 16px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     max-height: 310px;
-    padding: 12px;
-
-    &:nth-child(2n) {
-      grid-row: 2;
-    }
   }
 `;
 export const BoxNum = styled.label`
